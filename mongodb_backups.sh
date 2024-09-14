@@ -2,7 +2,7 @@
 
 
 MONGO_URI="your mongodb uri"
-BACKUP_PATH="/home/ubuntu/daily-bd-backups"    #Adjust path
+BACKUP_PATH="/path/dir"    
 DATE=$(date +"%Y-%m-%d_%H-%M-%S")
 BACKUP_NAME="mongo_backup_$DATE"
 BACKUP_FILE="$BACKUP_PATH/$BACKUP_NAME.gz"
